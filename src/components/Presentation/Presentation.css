@@ -1,0 +1,58 @@
+#presentation{
+  width: 15rem;
+  height: 4rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 3rem;
+  left: 10rem;
+ }
+
+h1{
+  margin: 0;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+h2{
+  margin: 0;
+  font-size: 1rem;
+  color: red;
+}
+
+#my-presentation {
+  display: flex;
+  align-items: center;
+}
+
+#my-presentation-one {
+  display: block;
+  background-color: white;
+  height: 0.2rem;
+  width: 8.75rem;
+}
+
+#my-presentation-two {
+  display: block;
+  background-color: lightgray;
+  height: 0.1rem;
+  width: 6.2rem;
+}
+
+@media (max-width: 1100px) {
+  #presentation {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8rem;
+    height: 3rem;
+    top: 1rem;
+  }
+  h1 {
+    font-size: 0.8rem;
+   
+  }
+  h2 {
+    font-size: 0.7rem;
+      }
+}
