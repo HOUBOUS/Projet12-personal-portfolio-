@@ -1,4 +1,4 @@
-#presentation{
+#presentation {
   width: 15rem;
   height: 4rem;
   position: fixed;
@@ -6,19 +6,20 @@
   flex-direction: column;
   justify-content: space-between;
   top: 3rem;
-  left: 10rem;
- }
-
-h1{
-  margin: 0;
-  font-size: 1.5rem;
-  text-decoration: underline;
+  left: 3rem;
+ 
 }
 
-h2{
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  
+}
+
+h2 {
   margin: 0;
   font-size: 1rem;
-  color: red;
+
 }
 
 #my-presentation {
@@ -40,9 +41,9 @@ h2{
   width: 6.2rem;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 992px) {
   #presentation {
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
     width: 8rem;
     height: 3rem;

@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Presentation.css';
 
 function Presentation() {
   return (
     <div id='presentation'> 
   
-    <p> Hi, im !!</p>
+    <p className='presentation-text'> Hi, im !!</p>
     <h1>Houda Bouslama</h1>
     <div id='my-presentation'>
       <span id='my-presentation-one'></span>

@@ -2,9 +2,9 @@
 
 body {
   font-family: "Russo One", sans-serif;
-  color: white;
-  margin-left: 10px;
-  -webkit-tap-highlight-color: transparent;
+  color: #FFFFFF;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 :root {
@@ -14,9 +14,6 @@ body {
   --transparent: #00000000;
   --radius-left: 3rem 0 0 3rem;
   --radius-right: 0 3rem 3rem 0;
-  /* background-image: url('./assets/fallback-image.png');
-  background-size: cover;
-  background-attachment: fixed; */
 }
 
 button:hover,
