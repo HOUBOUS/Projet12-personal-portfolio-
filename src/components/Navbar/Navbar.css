@@ -50,7 +50,7 @@ a{
     
 }
 
-@media(max-width: 772px){
+@media(max-width: 992px){
     .nav-about, .nav-skills, .nav-projects, .nav-contact{
         transform: translateX(0);
     }

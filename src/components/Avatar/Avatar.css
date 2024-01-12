@@ -1,0 +1,21 @@
+.photo {
+   position: fixed;
+   overflow: hidden;
+   z-index: -3;
+
+}
+.photo.about{
+
+    height: 70vh;
+    bottom: -8vh;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+@media (max-width: 992px) {
+    .photo.about{
+    height: 55vh;
+    bottom: 22vh;
+}
+        }
