@@ -13,7 +13,12 @@ function Presentation() {
       <span  id='my-presentation-two'></span>
     </div>
     
-    <h2>Intégrateur web</h2>
+    <h2>Intégrateur web   <br/> 
+    
+        Developpeuse Front-End
+    
+    </h2>
+    
     
     </div>
   )
