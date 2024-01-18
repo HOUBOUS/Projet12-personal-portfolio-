@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Projet12-personal-portfolio-/static/css/main.74530912.css",
+    "main.js": "/Projet12-personal-portfolio-/static/js/main.62b5fb83.js",
+    "static/media/bg-universe.mp4": "/Projet12-personal-portfolio-/static/media/bg-universe.8f0c7b0507588a3d538a.mp4",
+    "static/media/Ohmyfood.png": "/Projet12-personal-portfolio-/static/media/Ohmyfood.dc94cfc3f6170be733b4.png",
+    "static/media/fallback-image.png": "/Projet12-personal-portfolio-/static/media/fallback-image.d7075bb6fc934f311561.png",
+    "static/media/PhotoAva.png": "/Projet12-personal-portfolio-/static/media/PhotoAva.0a1d87652b146ebc0278.png",
+    "static/media/SophieBluel.png": "/Projet12-personal-portfolio-/static/media/SophieBluel.62908a27cb124766a29d.png",
+    "static/media/personnel.png": "/Projet12-personal-portfolio-/static/media/personnel.794dbb7803f1774b5c5f.png",
+    "static/media/ArgentBank.png": "/Projet12-personal-portfolio-/static/media/ArgentBank.bfab9d539f8154d7a2a2.png",
+    "static/media/backend3.png": "/Projet12-personal-portfolio-/static/media/backend3.fd2b500594ae97048d09.png",
+    "static/media/Career.png": "/Projet12-personal-portfolio-/static/media/Career.bb276b985fdf3ed1767e.png",
+    "static/media/education.png": "/Projet12-personal-portfolio-/static/media/education.6c1820d225550330da35.png",
+    "static/media/FrontEnd.png": "/Projet12-personal-portfolio-/static/media/FrontEnd.8e34237bd6e4d331f1fc.png",
+    "index.html": "/Projet12-personal-portfolio-/index.html",
+    "main.74530912.css.map": "/Projet12-personal-portfolio-/static/css/main.74530912.css.map",
+    "main.62b5fb83.js.map": "/Projet12-personal-portfolio-/static/js/main.62b5fb83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74530912.css",
+    "static/js/main.62b5fb83.js"
+  ]
+}
