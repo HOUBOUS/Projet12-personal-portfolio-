@@ -8,6 +8,7 @@ const Avatar = ({page}) => {
     const spanClass = `shadow-${page}`;
   return (
     <div>
+      
     <div className={spanClass}></div>
     <img src={Photo} className={photoClass} alt="MyAvatar"/>
     

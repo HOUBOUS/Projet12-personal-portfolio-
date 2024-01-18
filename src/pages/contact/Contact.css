@@ -1,10 +1,10 @@
 .block-contact {
   position: absolute;
-  top: 57%;
+  top: 60%;
   left: 50%;
-
-  transform: translate(-50%, -50%);
+  transform: translate(-20%, -50%);
 }
+
 .row-contact {
   display: flex;
   flex-direction: row;
@@ -13,8 +13,8 @@ gap: 0.5rem;
 form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  width: 18.5rem;
+  gap: 1.5rem;
+  width: 60%;
 }
 .short-label {
   width: 50%;
@@ -22,7 +22,6 @@ form {
 .long-label {
   width: 100%;
 }
-
 
 #inputSubject {
   height: 8rem; 
@@ -94,8 +93,24 @@ button {
 label {
   display: none;
 }
-@media (max-width: 772px) {
+
+
+ @media (max-width: 1024px) {
+  .block-contact {
+    
+    bottom: 10%;
+    left: 30%;
+    transform: translate(-20%, -50%);
+  }
+ }
+@media (max-width: 992px) {
     form{
-        gap: 0.5rem;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .block-contact {
+    top: 45%;
+      
     }
     }

@@ -6,7 +6,7 @@ function Presentation() {
     <div id='presentation'> 
   
     <p className='presentation-text'> Hi, im !!</p>
-    <h1>Houda Bouslama</h1>
+    <h1>Houda Bouslama!</h1>
     <div id='my-presentation'>
       <span id='my-presentation-one'></span>
       
@@ -18,6 +18,8 @@ function Presentation() {
         Developpeuse Front-End
     
     </h2>
+
+    
     
     
     </div>

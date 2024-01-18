@@ -7,7 +7,7 @@ import  Imageback from'../../assets/fallback-image.png'
 function Background() {
   return (
     <div>
-        <div className='shadow-background'></div>
+        <div className='background'></div>
         <video 
         playsInline
         autoPlay
