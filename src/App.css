@@ -2,8 +2,8 @@
 
 body {
   font-family: "Russo One", sans-serif;
-  color: #FFFFFF;
-  
+  color: white;
+  -webkit-tap-highlight-color: transparent;
 
 }
 
@@ -11,7 +11,7 @@ body {
   --purple: #0000cd;
   --blue: #6495ed;
   --cyan: #40e0d0;
-  
+  --transparent: #00000000;
   --radius-left: 3rem 0 0 3rem;
   --radius-right: 0 3rem 3rem 0;
 }

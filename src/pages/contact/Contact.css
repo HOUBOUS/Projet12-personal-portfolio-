@@ -4,6 +4,10 @@
   left: 50%;
   transform: translate(-20%, -50%);
 }
+.icon{
+  width: 2.5rem;
+  height: 2.5rem;
+}
 
 .row-contact {
   display: flex;

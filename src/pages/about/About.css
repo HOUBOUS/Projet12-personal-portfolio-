@@ -1,8 +1,7 @@
 .detail {
   width: 19rem;
   position: fixed;
-  display: flex;
-  flex-direction: column;
+
   top: 60%;
   transform: translateY(-60%);
   left: 10vw;
@@ -34,10 +33,10 @@ p {
 }
 
 .sub-container {
-  width: 15.7rem;
+  width: 16rem;
   position: fixed;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   top: 32%;
   right: 6vw;
   cursor: pointer;
@@ -101,7 +100,6 @@ p {
   width: 3.5rem;
   height: 3.5rem;
   margin: -0.5rem 0.5rem;
-
 }
 
 .sub-container-1 h3,
@@ -111,37 +109,51 @@ p {
   margin: 0.2rem 0;
   padding: 0.5rem 0 0.5rem 1rem;
 }
+/***Responsive***/
 
-@media (min-width: 700px) and (max-width: 1024px) {
-  .detail{
-    left: 26vw;
+/**Mobile**/
+
+@media screen and (max-width: 768px) {
+  .detail {
+    left: 15vw;
     padding-bottom: 5rem;
+    /* width: 70%; */
+    top: 40%;
+  }
+  .sub-container {
+    display: flex;
+       width: 70%;
+    top: 57%;
+    left: 16%;
   }
 
-  p{
-    font-size: 18px;
+  /* .sub-container {
+    display: flex;
+    align-items: center;
+
+    width: 13rem;
+    top: 37%;
+    left: 47%;
+  } */
+
+  p {
+    font-size: 14px;
   }
-  h3{
-    font-size: 20px;
+  h3 {
+    font-size: 15px;
   }
- 
-  .sub-container {
-    top: 24%;
-    right: 12vh;
-    width: 33rem;
-  }
+
   .item.active .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .active-title .p-container {
+    width: 20rem;
   }
 }
-@media (max-width: 992px) {
-  .sub-container {
-    right: 1rem;
-    width: 30rem;
-    top: 24%;
-    left: 61%;
-    transform: translateX(-50%);
-  }
+
+/**Tablette**/
+@media screen and (max-width: 992px) {
   .item.active .title {
     font-size: 1rem;
   }
@@ -153,7 +165,7 @@ p {
     font-size: 0.8rem;
     padding-right: 2.5rem;
   }
-  .active-title.p-container {
+  .active-title .p-container {
     font-size: 0.8rem;
   }
   .icon-title-container,
@@ -165,129 +177,25 @@ p {
   }
   h2,
   h3 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
   }
   p {
     font-size: 13px;
   }
   .detail {
-    top: 71%;
-    left: -19vw;
+    left: 15vw;
+    padding-bottom: 5rem;
+    width: 50%;
+    top: 56%;
+  }
+  .sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    top: 57%;
+    left: 16%;
   }
 }
-
-/* .detail {
-    width: 19rem;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 60%;
-    transform: translateY(-60%);
-    left: 10vw;
-  }
-  
-  .item {
-    height: 3.7rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .title {
-    font-size: 1rem;
-    padding-right: 2.5rem;
-  }
-  
-  .item.active .title {
-    font-size: 1.5rem;
-  }
-  
-  .sub-container {
-    width: 18.5rem;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 32%;
-    right: 10vw;
-    cursor: pointer;
-  }
-  
-  .active-title {
-    cursor: default;
-  }
-  
-  .item.active:nth-child(1),
-  .item.active:nth-child(2),
-  .item.active:nth-child(3) {
-    background: linear-gradient(90deg, var(--transparent), var(--purple) 70%);
-    border-radius: var(--radius-right);
-  }
-  
-  .sub-container-1.active-title h3,
-  .sub-container-2.active-title h3,
-  .sub-container-3.active-title h3 {
-    border-radius: var(--radius-left);
-  }
-  
-  .sub-container-1.active-subheading h3 {
-    background: linear-gradient(90deg, var(--purple), var(--transparent) 100%);
-  }
-  
-  .sub-container-2.active-subheading h3 {
-    background: linear-gradient(90deg, var(--blue), var(--transparent) 100%);
-  }
-  
-  .sub-container-3.active-subheading h3 {
-    background: linear-gradient(90deg, var(--cyan), var(--transparent) 100%);
-  }
-  
-  .item.active {
-    position: relative;
-    cursor: default;
-  }
-  
-  .p-container {
-    display: none;
-  }
-  
-  .active-title .p-container {
-    display: block;
-    font-size: 1rem;
-  }
-  
-  .icon-title-container {
-    display: flex;
-    gap: 1.2rem;
-    margin-bottom: 0.5rem;
-    cursor: default;
-  }
-  
-  .icon {
-    width: 3rem;
-    height: 3rem;
-  }
-  
-  .sub-container-1 h3,
-  .sub-container-2 h3,
-  .sub-container-3 h3 {
-    position: relative;
-    margin: 0.2rem 0;
-    padding: 0.5rem 0 0.5rem 1rem;
-  }
-  
-  @media (max-width: 700px) {
-    .sub-container {
-      right: 1rem;
-    }
-  
-    .item.active .title {
-      font-size: 1rem;
-    }
-  
-    .item {
-      height: 2rem;
-    }
-  }
-   */

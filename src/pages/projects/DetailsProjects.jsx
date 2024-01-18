@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import projects from "../../Data/DataProjects";
+import GithubIcon from '../../assets/githubIcon.png';
+import WebSite from '../../assets/webSite.png';
 import "../projects/Projects.css";
 
 const DetailsProjects = () => {
@@ -14,15 +16,21 @@ const DetailsProjects = () => {
     return projects.map((project, index) => (
       <div key={index} className={`project-sub-container-${index + 1}`}>
         <h3>{project.title}</h3>
-        <img src={project.image} alt={project.title}></img>
-        <div>{project.description}</div>
+        <img src={project.image} alt={project.title} className="title-img"></img>
+        <div className="project-description">{project.description}</div>
         <div className="link-container">
+        <span>
           <a href={project.github} target="_blank" rel="noopener noreferrer">
             GITHUB
+            <img src={GithubIcon} alt="icon of github" className="icon-img" />
           </a>
+          </span>
+          <span>
           <a href={project.demo} target="_blank" rel="noopener noreferrer">
             DEMO
+            <img src={WebSite} alt="icon of web site" className="icon-img"/>
           </a>
+          </span>
         </div>
       </div>
     ));

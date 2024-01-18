@@ -11,7 +11,7 @@ const projects = {
         <p>
         Développer un site “mobile first” qui répertorie les menus de restaurants 
 gastronomiques 
-Mission : intégrer un site avec du code HTML , CSS et media queries 
+
         </p>
       </>
     ),

@@ -1,56 +1,61 @@
 .photo {
-   position: fixed;
-   overflow: hidden;
-   z-index: -3;
-
+  position: fixed;
+  overflow: hidden;
+  z-index: -3;
 }
-.photo.about{
-    height: 70vh;
-    bottom: -8vh;
-    left: 50%;
-    transform: translateX(-50%);
-    
+.photo.about {
+  height: 70vh;
+  bottom: -8vh;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.photo.skills{
-    height: 61vh;
-    bottom: 5vh;
-    left: -2rem;
-    transform: translateX(50%) scaleX(-1);
-
+.photo.skills {
+  height: 61vh;
+  bottom: 5vh;
+  left: -2rem;
+  transform: translateX(50%) scaleX(-1);
 }
 .shadow-skills {
-    height: 75vh;
-    width: 100vh;
-    display: block;
-    position: fixed;
-    z-index: -1;
+  height: 75vh;
+  width: 100vh;
+  display: block;
+  position: fixed;
+  z-index: -1;
 }
 
-
-@media (max-width: 1024px) {
-    .photo.about{
-    height: 43vh;
+@media screen and (max-width: 768px) {
+  .photo.about {
+    height: 21vh;
+    bottom: 58vh;
+    left: 22%;
+    border-radius: 50%;
     
-} 
+  }
 
-.photo.skills{
-    
+  .photo.skills {
     height: 40vh;
     bottom: -2vh;
+  }
 }
-        }
 
-@media (max-width: 992px) {
-    .photo.about{
+@media screen and (max-width: 992px) {
+  /* .photo.about {
     height: 31vh;
     bottom: 50vh;
     left: 15%;
-} 
+  } */
+  .photo.about {
+    height: 21vh;
+    bottom: 56vh;
+    left: 22%;
+    border-radius: 50%;
+    
+  }
 
-.photo.skills{
+  .photo.skills {
     z-index: -1;
     height: 50vh;
     bottom: -10vh;
+  }
 }
-        }
