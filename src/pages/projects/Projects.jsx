@@ -1,8 +1,12 @@
 import React from 'react'
+import DetailsProjects from './DetailsProjects';
 
 function Projects() {
   return (
-    <div>Hello Projects</div>
+    <div>
+      
+      <DetailsProjects/>
+    </div>
   )
 }
 

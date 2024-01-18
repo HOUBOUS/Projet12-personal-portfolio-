@@ -53,8 +53,8 @@
     width: 5rem;
     height: 5rem;
     position: absolute;
-    top: 1.8rem;
-    left: 8rem;
+    top: -0.2rem;
+    left: 10rem 
   }
   
   .skill-sub-container-1 h3,
@@ -94,6 +94,25 @@
     flex-direction: column;
     gap: 0.4rem;
   }
+
+  @media (max-width: 1024px) {
+    .skill-item.activeSkill .skill-title {
+      font-size: 1.25rem;
+    }
+    .menu {
+        width: 10rem;
+        top: 30%;
+        left: 50%;
+        
+      }
+      .skill-menu {
+        width: 35rem;
+        right: 36vw;
+       
+      }
+    
+  
+  }
   
   @media (max-width: 992px) {
     .skill-item.activeSkill .skill-title {
@@ -106,6 +125,6 @@
         transform: translateY(-50%);
       }
     
-  /* ... (autres règles media queries) ... */
+  
   }
   

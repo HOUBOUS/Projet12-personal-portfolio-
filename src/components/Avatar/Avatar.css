@@ -26,10 +26,26 @@
     position: fixed;
     z-index: -1;
 }
+
+
+@media (max-width: 1024px) {
+    .photo.about{
+    height: 43vh;
+    
+} 
+
+.photo.skills{
+    
+    height: 40vh;
+    bottom: -2vh;
+}
+        }
+
 @media (max-width: 992px) {
     .photo.about{
-    height: 55vh;
-    bottom: 22vh;
+    height: 31vh;
+    bottom: 50vh;
+    left: 15%;
 } 
 
 .photo.skills{

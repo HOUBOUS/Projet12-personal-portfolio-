@@ -20,7 +20,7 @@ const AboutTitleData = {
         <>
           <p>
           Ma
-          formation chez OpenClassrooms m'a permis d'acquérir une solide culture web et une connaissance approfondie 
+          M'a permis d'acquérir une solide culture web et une connaissance approfondie 
           des langages clés HTML, CSS, JavaScript, ainsi que des frameworks React.
           </p>
         </>

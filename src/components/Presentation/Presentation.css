@@ -17,6 +17,7 @@ h1 {
 }
 
 h2 {
+  padding-top: 10px;
   margin: 2px;
   font-size: 1rem;
 
@@ -41,7 +42,7 @@ h2 {
   width: 6.2rem;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   #presentation {
     left: 50%;
     transform: translateX(-50%);
