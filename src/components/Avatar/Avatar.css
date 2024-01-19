@@ -34,17 +34,14 @@
   }
 
   .photo.skills {
-    height: 40vh;
-    bottom: -2vh;
+    height: 19vh;
+    bottom: 24vh;
+    border-radius: 50%;
   }
 }
 
 @media screen and (max-width: 992px) {
-  /* .photo.about {
-    height: 31vh;
-    bottom: 50vh;
-    left: 15%;
-  } */
+ 
   .photo.about {
     height: 21vh;
     bottom: 56vh;
@@ -55,7 +52,7 @@
 
   .photo.skills {
     z-index: -1;
-    height: 50vh;
-    bottom: -10vh;
+    height: 18vh;
+    bottom: 46vh;
   }
 }

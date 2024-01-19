@@ -33,7 +33,8 @@
   margin-left: 20px;
 width: 50px;
 }
-.icon{
+.contact-item img{
+
   width: 2.5rem;
   height: 2.5rem;
   margin-right: 10px;
@@ -57,12 +58,12 @@ width: 50px;
   }
 
   #contact{
-    margin: 12rem 5rem;
+    margin: 10rem 5rem;
   }
 }
 @media screen and (max-width: 992px) {
   
   #contact{
-    margin: 23rem 12rem;
+    margin: 15rem 4rem;
   }
 }
