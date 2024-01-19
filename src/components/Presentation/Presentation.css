@@ -10,6 +10,12 @@
  
 }
 
+.cv-icon{
+  width: 1.5rem;
+  height: 1.5rem;
+ 
+}
+
 h1 {
   margin: 0;
   font-size: 1.5rem;
@@ -45,8 +51,7 @@ h2 {
 
   #presentation {
         top: 0.5rem;
-    
-   
+        left: 0.5rem;  
   }
 }
 
@@ -56,18 +61,21 @@ h2 {
     transform: translateX(-50%);
     width: 10rem;
     height: 2rem;
-    top: 3rem;
+    top: 1rem;
+   
   }
 
   .presentation-text{
     font-size: 0.7rem;
     margin: 0;
   }
-  h1 {
+  #presentation h1 {
     font-size: 0.8rem;
    
   }
-  h2 {
+  #presentation h2{
     font-size: 0.7rem;
+ 
+
       }
 }
